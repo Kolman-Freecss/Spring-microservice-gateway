@@ -1,0 +1,18 @@
+HELP.md
+target/
+**/.mvn/wrapper/**
+**/src/main/**/target/
+**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+**/.idea/
+/.idea
+.idea/*
+
+**/mvnw
+**/*.cmd
+.gitignore.bak

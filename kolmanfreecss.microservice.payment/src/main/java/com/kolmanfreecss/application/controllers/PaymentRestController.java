@@ -13,7 +13,7 @@ public class PaymentRestController {
     @Value("${server.port}")
     private String port;
     
-    @GetMapping("/getPort")
+    @GetMapping("/info")
     public ResponseEntity<String> showPaymentInfo() {
         return ResponseEntity.ok("Payment service is running on port: " + port);
     }

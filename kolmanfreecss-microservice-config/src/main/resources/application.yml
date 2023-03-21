@@ -9,4 +9,5 @@ spring:
       server:
         git:
           uri: https://github.com/Kolman-Freecss/CONFIG-Spring-Microservices-Gateway
-          
+          basedir: GATEWAY-SERVICE
+          default-label: master

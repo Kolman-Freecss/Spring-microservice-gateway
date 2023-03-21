@@ -1,0 +1,11 @@
+###
+GET http://localhost:8080/api/order/info
+
+<> 2023-03-21T170429.200.txt
+
+###
+GET http://localhost:8080/api/payment/info
+
+<> 2023-03-21T170925.200.txt
+<> 2023-03-21T170820.200.txt
+<> 2023-03-21T170634.200.txt

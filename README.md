@@ -6,9 +6,9 @@ This is a sample project to demonstrate how to use Spring Cloud Gateway to route
 
 ## Table of Contents
 
-- [Dependencies](#dependencies)
+- [Stack](#stack)
 
-## Dependencies:
+## Stack:
 
 - Spring Boot 3
 - Spring Cloud Gateway

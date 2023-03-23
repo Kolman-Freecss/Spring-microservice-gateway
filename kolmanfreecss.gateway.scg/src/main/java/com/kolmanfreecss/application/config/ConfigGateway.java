@@ -1,18 +1,13 @@
 package com.kolmanfreecss.application.config;
 
 import com.kolmanfreecss.application.filters.CustomFilter;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.core.userdetails.UserDetailsService;
 
 @Configuration
 public class ConfigGateway {
-
-    @Autowired
-    private UserDetailsService jwtUserDetailsService;
 
     @Bean
     public RouteLocator myRoutes(RouteLocatorBuilder builder) {

@@ -3,16 +3,12 @@ package com.kolmanfreecss;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 import org.springframework.core.SpringVersion;
 
 import java.nio.charset.Charset;
 import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Locale;
-import java.util.Optional;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
 @SpringBootApplication
 @Log4j2

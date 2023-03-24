@@ -19,3 +19,4 @@ This is a sample project to demonstrate how to use Spring Cloud Gateway to route
 - WebFlux
 - Spring Actuator
 - Java 19
+- Log4j2

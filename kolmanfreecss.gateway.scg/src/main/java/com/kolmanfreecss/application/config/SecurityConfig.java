@@ -1,6 +1,7 @@
 package com.kolmanfreecss.application.config;
 
 import com.kolmanfreecss.application.filters.JwtFilter;
+import com.kolmanfreecss.application.filters.log.RequestsFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,6 +21,7 @@ import java.util.List;
 public class SecurityConfig {
 
     private final JwtFilter jwtFilter;
+    private final RequestsFilter requestsFilter;
 
     @Bean
     SecurityWebFilterChain springWebFilterChain(ServerHttpSecurity http) throws Exception {
@@ -30,7 +32,8 @@ public class SecurityConfig {
         
         // TODO: Exclude actuator endpoints from authentication
         // http.authorizeExchange().pathMatchers("/actuator/**").permitAll();
-        http.addFilterAt(jwtFilter, SecurityWebFiltersOrder.AUTHENTICATION);
+        // http.addFilterAt(jwtFilter, SecurityWebFiltersOrder.AUTHENTICATION);
+        //http.addFilterBefore(requestsFilter, SecurityWebFiltersOrder.FIRST);
         
         return http.build();
     }

@@ -14,7 +14,6 @@ This is a sample project to demonstrate how to use Spring Cloud Gateway to route
 - Spring Cloud Gateway
 - Spring Cloud Config
 - Spring Cloud Netflix Eureka
-- Redis
 - Spring Security & JWT System
 - WebFlux
 - Spring Actuator
